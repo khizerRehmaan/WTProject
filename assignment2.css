@@ -1,0 +1,107 @@
+html{
+  margin:0px ;
+}
+body{
+  margin: 0px;
+}
+#Upperline{
+height: .5%;
+width: 100%;
+background-color: rgb(78, 123, 247);
+margin: 0;
+}
+#Container{
+height: 100%;
+width: 100%;
+}
+#Header
+{
+    height: 90%;
+    background-image: url("railway.jpg");
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: cover;
+    background-position: 0 -200;
+}
+#Nav{
+/* background-color: rgb(87, 209, 250); */
+width: auto;
+margin: auto;
+height: 15%;
+position: sticky;
+}
+.logoContainer
+{
+width: 20%;
+
+float: left;
+
+}
+.logo
+{
+width: 200px;
+height: 150px;
+float: left;
+background-color: orange;
+}
+ul {
+    background: gray;
+      list-style: none;
+      margin: auto;
+      width: 100%;
+      padding-left: 0;
+      position: relative;
+  }
+ul li{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ul li a{
+    display: block;
+   text-decoration: none;
+}
+ul li:hover > ul
+ {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  z-index: 1;
+}
+li a {
+  color: #fff;
+}
+li:hover {
+    background: red;
+    cursor: pointer;
+}
+ul li ul {
+    background: gray;
+    display: none;
+    position: absolute;
+    opacity: 0;
+    width:auto;
+    
+    margin-top: 5px;
+    
+
+}
+
+ ul li ul li {
+    
+    display: block;
+  } 
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height: 10%;
+   width: 100%;
+   background-color: gray;
+   color: white;
+   text-align: center;
+}
+
